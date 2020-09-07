@@ -5,15 +5,18 @@ export default function Features() {
     <div className="py-12 bg-white">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
-          <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
-            Transactions
-          </p>
-          <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-            A better way to send money
+          <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-darkseagreen-700 sm:text-4xl sm:leading-10">
+            Osa Peninsula of Costa Rica
           </h3>
+          <p className="mt-4 max-w-2xl text-2xl leading-8 text-gray-500 lg:mx-auto">
+            Visiting the most biodiverse place on earth is so much more than
+            vacation. It's a once in lifetime experience.
+          </p>
+          <p className="mt-4 max-w-2xl text-lg leading-8 text-gray-500 lg:mx-auto">
+            To create the conditions for as many people to enjoy it, is our art.
+          </p>
           <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
-            voluptatum cupiditate veritatis in accusamus quisquam.
+            Mono - CEO & Experience Specialist
           </p>
         </div>
         <div className="mt-10">
@@ -21,7 +24,7 @@ export default function Features() {
             <li>
               <div className="flex">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-burlywood-500 text-white">
                     <svg
                       className="h-6 w-6"
                       fill="none"
@@ -38,13 +41,14 @@ export default function Features() {
                   </div>
                 </div>
                 <div className="ml-4">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
-                    Competitive exchange rates
+                  <h4 className="text-lg leading-6 font-medium text-darkseagreen-900">
+                    All activities and equipment are included
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    Do what you want, when you want free of charge. Choose from
+                    surfing, fishing, paddleboarding, kayaking, tree climbing,
+                    swinging, hiking, wildlife spotting, mountain bikining and
+                    more.
                   </p>
                 </div>
               </div>
@@ -52,7 +56,7 @@ export default function Features() {
             <li className="mt-10 md:mt-0">
               <div className="flex">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-burlywood-500 text-white">
                     <svg
                       className="h-6 w-6"
                       fill="none"
@@ -69,13 +73,14 @@ export default function Features() {
                   </div>
                 </div>
                 <div className="ml-4">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
-                    No hidden fees
+                  <h4 className="text-lg leading-6 font-medium text-darkseagreen-900">
+                    Eco Boutique Accomodations
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    It's the natural feeling of glamping with the comfort of a
+                    master bedroom. Profesionally designed spaces, great
+                    matrices, pillows and bedsheets, smart temperature controls
+                    on the rooms, natural soaps and oils in crazy bathrooms.
                   </p>
                 </div>
               </div>
@@ -83,7 +88,7 @@ export default function Features() {
             <li className="mt-10 md:mt-0">
               <div className="flex">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-burlywood-500 text-white">
                     <svg
                       className="h-6 w-6"
                       fill="none"
@@ -100,13 +105,13 @@ export default function Features() {
                   </div>
                 </div>
                 <div className="ml-4">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
-                    Transfers are instant
+                  <h4 className="text-lg leading-6 font-medium text-darkseagreen-900">
+                    Profesional Kitchen & Lounge
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    Fully equipped kitchen, with ingredients for local &
+                    international cousine. Next to a large comfy lounge with
+                    hammocks. Bonefires, saltwater pools.
                   </p>
                 </div>
               </div>
@@ -114,7 +119,7 @@ export default function Features() {
             <li className="mt-10 md:mt-0">
               <div className="flex">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-burlywood-500 text-white">
                     <svg
                       className="h-6 w-6"
                       fill="none"
@@ -131,13 +136,13 @@ export default function Features() {
                   </div>
                 </div>
                 <div className="ml-4">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
-                    Mobile notifications
+                  <h4 className="text-lg leading-6 font-medium text-darkseagreen-900">
+                    Work from paradise
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    Use our lounge to catch up on work, homescholing or full on
+                    remote work. Our internet connection is stable and super
+                    fast. We've been working remotly for more than decade.
                   </p>
                 </div>
               </div>

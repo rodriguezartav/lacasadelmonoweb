@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Details() {
   return (
-    <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
+    <div className="py-16 bg-darkseagreen-300 overflow-hidden lg:py-24">
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
         <svg
           className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
@@ -38,29 +38,31 @@ export default function Details() {
         </svg>
         <div className="relative">
           <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-            A better way to send money
+            Why stay with us?
           </h3>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-gray-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-            magnam voluptatum cupiditate veritatis in, accusamus quisquam.
+            We were very different when we arrived the Osa Peninsula in our
+            20's. An specialist in Wildlife Biology and a senior Software
+            Engineer. This place opened up our hearts and lead us to a new life
+            - now a family we turned our dream property into a place where
+            hopefully other's can experience what we did.
           </p>
         </div>
         <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
             <h4 className="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
-              Transfer funds world-wide
+              Our goal
             </h4>
             <p className="mt-3 text-lg leading-7 text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              minima sequi recusandae, porro maiores officia assumenda aliquam
-              laborum ab aliquid veritatis impedit odit adipisci optio iste
-              blanditiis facere. Totam, velit.
+              We created a beautfull and comfortable property for friends and
+              family. But out true goal is to help people feel a true connection
+              with mother nature.
             </p>
             <ul className="mt-10">
               <li>
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-burlywood-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -78,12 +80,12 @@ export default function Details() {
                   </div>
                   <div className="ml-4">
                     <h5 className="text-lg leading-6 font-medium text-gray-900">
-                      Competitive exchange rates
+                      It's about creating the conditions
                     </h5>
                     <p className="mt-2 text-base leading-6 text-gray-500">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione.
+                      Our role is to create the conditions so that you can truly
+                      realize where you are and hopefully that this place gives
+                      you the most beautiful gift: remembering where you belong.
                     </p>
                   </div>
                 </div>
@@ -91,7 +93,7 @@ export default function Details() {
               <li className="mt-10">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-burlywood-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -109,12 +111,12 @@ export default function Details() {
                   </div>
                   <div className="ml-4">
                     <h5 className="text-lg leading-6 font-medium text-gray-900">
-                      No hidden fees
+                      Our way is having fun
                     </h5>
                     <p className="mt-2 text-base leading-6 text-gray-500">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione.
+                      We are surfers, hickers and world traverlers. We believe
+                      the best way to experience this paradise is to be engaged
+                      with it and why not have fun doing it!
                     </p>
                   </div>
                 </div>
@@ -122,7 +124,7 @@ export default function Details() {
               <li className="mt-10">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-burlywood-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -140,12 +142,14 @@ export default function Details() {
                   </div>
                   <div className="ml-4">
                     <h5 className="text-lg leading-6 font-medium text-gray-900">
-                      Transfers are instant
+                      This jungle is university
                     </h5>
                     <p className="mt-2 text-base leading-6 text-gray-500">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione.
+                      During my first visit to Corcovado National Park I had a
+                      dream, in it mother nature explained to me that this place
+                      is some sort of university where we humans could remember
+                      the most importante lessons just by spending some quality
+                      with her.
                     </p>
                   </div>
                 </div>
@@ -229,18 +233,18 @@ export default function Details() {
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:col-start-2">
               <h4 className="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
-                Always in the loop
+                What kind of retreat is it?
               </h4>
               <p className="mt-3 text-lg leading-7 text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-                ex obcaecati natus eligendi delectus, cum deleniti sunt in
-                labore nihil quod quibusdam expedita nemo.
+                It's mother nature retreat. There are no gurus, teachers, no
+                classes, no lectures and no schedules. Definetly no rules and no
+                dogmas!
               </p>
               <ul className="mt-10">
                 <li>
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-burlywood-500 text-white">
                         <svg
                           className="h-6 w-6"
                           fill="none"
@@ -258,12 +262,13 @@ export default function Details() {
                     </div>
                     <div className="ml-4">
                       <h5 className="text-lg leading-6 font-medium text-gray-900">
-                        Mobile notifications
+                        Our method is to not have a method
                       </h5>
                       <p className="mt-2 text-base leading-6 text-gray-500">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Maiores impedit perferendis suscipit eaque, iste
-                        dolor cupiditate blanditiis ratione.
+                        We truly believe that just by spending quality time and
+                        letting the animals, trees, the wind, the rain, the
+                        ocean do their thing - the magic of nature - the
+                        interconnectedness of everything - reveals it self.
                       </p>
                     </div>
                   </div>
@@ -271,7 +276,7 @@ export default function Details() {
                 <li className="mt-10">
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-burlywood-500 text-white">
                         <svg
                           className="h-6 w-6"
                           fill="none"
@@ -289,12 +294,13 @@ export default function Details() {
                     </div>
                     <div className="ml-4">
                       <h5 className="text-lg leading-6 font-medium text-gray-900">
-                        Reminder emails
+                        Arts of Body & Mind
                       </h5>
                       <p className="mt-2 text-base leading-6 text-gray-500">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Maiores impedit perferendis suscipit eaque, iste
-                        dolor cupiditate blanditiis ratione.
+                        Around the property there are pods to connect with
+                        nature. Sit and contemplate nature, meditate, practice
+                        Yoga or fall sleep to the soothing sounds of the jungle.
+                        We got hammocks and pillows everywhere.
                       </p>
                     </div>
                   </div>

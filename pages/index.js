@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Features from "../components/Features";
 import Details from "../components/Details";
 import Faq from "../components/Faq";
+import Blog from "../components/Blog";
 import Price from "../components/Price";
 
 export default function Home() {
@@ -19,7 +20,9 @@ export default function Home() {
       <Header />
       <Features />
       <Details />
+      <Blog />
       <Price />
+
       <Content />
       <Faq />
       <Footer />

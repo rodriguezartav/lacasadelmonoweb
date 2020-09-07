@@ -6,7 +6,7 @@ export default function Content() {
       <div className="max-w-max-content lg:max-w-7xl mx-auto">
         <div className="relative z-10 mb-8 md:mb-2 md:px-6">
           <div className="text-base max-w-prose lg:max-w-none">
-            <p className="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+            <p className="leading-6 text-darkseagreen-600 font-semibold tracking-wide uppercase">
               Transactions
             </p>
             <h1 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
@@ -139,7 +139,7 @@ export default function Content() {
             <div className="inline-flex rounded-md shadow">
               <a
                 href="#"
-                className="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out"
+                className="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-darkseagreen-600 hover:bg-darkseagreen-500 focus:outline-none focus:border-darkseagreen-700 focus:shadow-outline-darkseagreen transition duration-150 ease-in-out"
               >
                 Contact sales
               </a>

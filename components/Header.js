@@ -76,7 +76,7 @@ export default function index() {
                 </a>
                 <a
                   href="#"
-                  className="ml-8 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out"
+                  className="ml-8 font-medium text-burlywood-600 hover:text-burlywood-900 transition duration-150 ease-in-out"
                 >
                   Log in
                 </a>
@@ -164,7 +164,7 @@ export default function index() {
                 <div>
                   <a
                     href="#"
-                    className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
+                    className="block w-full px-5 py-3 text-center font-medium text-burlywood-600 bg-gray-50 hover:bg-gray-100 hover:text-burlywood-700 focus:outline-none focus:bg-gray-100 focus:text-burlywood-700 transition duration-150 ease-in-out"
                     role="menuitem"
                   >
                     Log in
@@ -175,31 +175,47 @@ export default function index() {
           </div>
           <main className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
-              <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-                Data to enrich your
+              <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-darkseagreen-700 sm:text-5xl sm:leading-none md:text-6xl">
+                Nature's retreat
                 <br className="xl:hidden" />
-                <span className="text-indigo-600">online business</span>
+                <span className="text-burlywood-700">
+                  {" "}
+                  for family & friends
+                </span>
               </h2>
-              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat aliqua.
+              <p className="mt-3 text-lg text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0">
+                Feel like you're renting part of a national park all for
+                yourself.
+                <ul className="my-4 text-darkseagreen-600 text-sm uppercase">
+                  <li className="my-2 ml-2">
+                    Private beachfront lined with palmtrees and tide pools
+                  </li>
+                  <li className="my-2 ml-2">
+                    Jungle with huge trees filled with wildlife
+                  </li>
+                  <li className="my-2 ml-2">
+                    Boutique Accomodations for 2 or 25+ guests
+                  </li>
+                  <li className="my-2 ml-2">
+                    20+ onsite free natural and adventure activities
+                  </li>
+                </ul>
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
                     href="#"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-burlywood-600 hover:bg-burlywood-500 focus:outline-none focus:border-burlywood-700 focus:shadow-outline-burlywood transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                   >
-                    Get started
+                    Click to call for free
                   </a>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
                     href="#"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-700 bg-indigo-100 hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline-indigo focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-burlywood-700 bg-burlywood-100 hover:text-burlywood-600 hover:bg-burlywood-50 focus:outline-none focus:shadow-outline-burlywood focus:border-burlywood-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                   >
-                    Live demo
+                    Whatsapp Chat
                   </a>
                 </div>
               </div>
