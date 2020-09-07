@@ -6,11 +6,11 @@ export default function Content() {
       <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
         <div className="mx-auto text-base max-w-prose lg:max-w-none">
-          <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
-            Research
+          <p className="text-base leading-6 text-darkseagreen-600 font-semibold tracking-wide uppercase">
+            Science & Research
           </p>
           <h1 className="mt-2 mb-8 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-            Meet Daniela Solano
+            Meet Co-Founder Daniela Solano
           </h1>
         </div>
         <div className="lg:grid lg:grid-cols-2 lg:gap-8">
@@ -78,16 +78,18 @@ export default function Content() {
           <div>
             <div className="text-base max-w-prose mx-auto lg:max-w-none">
               <p className="text-lg leading-7 text-gray-500 mb-5">
-                Sagittis scelerisque nulla cursus in enim consectetur quam.
-                Dictum urna sed consectetur neque tristique pellentesque.
-                Blandit amet, sed aenean erat arcu morbi.
+                Daniela is a leading primatologist of the Osa Peninsula. Her
+                research on squirel monkeys is deeply rooted in her love for all
+                primates.
               </p>
             </div>
             <div className="prose text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
               <p>
-                Sollicitudin tristique eros erat odio sed vitae, consequat
-                turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros
-                eu viverra donec ut volutpat donec laoreet quam urna.
+                You'll be walking with here under the canopy and suddenly she'll
+                hear a subtle calling and let us know the monkeys are here. More
+                than a trained ear, she has a connection with this beautiful
+                creatures that can only be found on this small part of the
+                world.
               </p>
               <p>
                 Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique
@@ -114,7 +116,12 @@ export default function Content() {
                 fermentum lacus in. Viverra.
               </p>
               <h2>Volunteering & Guest Scientists</h2>
-              <p>Becuause of our excelente location to study wildlife dsd ds</p>
+              <p>
+                Becuause of our excelente location to study wildlife we host and
+                sponsor all sorts of wildlife research and it's often to find
+                very scientist, film makers and conservationists with whom to
+                have very interesting conversations over dinner.
+              </p>
               <p>
                 Sagittis scelerisque nulla cursus in enim consectetur quam.
                 Dictum urna sed consectetur neque tristique pellentesque.

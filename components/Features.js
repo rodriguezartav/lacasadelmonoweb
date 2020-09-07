@@ -146,13 +146,13 @@ export default function Features() {
             </li>
           </ul>
         </div>
-        <p className="mt-4 max-w-2xl text-2xl leading-8 text-gray-500 lg:mx-auto">
+        <p className="mt-12 max-w-2xl text-2xl leading-8 text-gray-500 lg:mx-auto">
           Visiting the most biodiverse place on earth is so much more than
-          vacation. It's a once in lifetime experience.
+          vacation. It's a once in a lifetime experience.
         </p>
 
         <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
-          Mono - CEO & Experience Specialist
+          Mono - Founder & Manager
         </p>
       </div>
     </div>

@@ -12,9 +12,9 @@ export default function Blog() {
             Our Story our Gallery
           </h2>
           <p className="mt-3 max-w-2xl mx-auto text-xl leading-7 text-gray-500 sm:mt-4">
-            There is not way way to share how it feels to spend an afternoon
-            under 100 year old trees while listening to the songs of life and
-            the breaking of waves. But we try to share how it looks.
+            There is no way to share how it feels to spend an afternoon under
+            100 year old trees while listening to the songs of life and the
+            breaking of the waves. Here we just try to share how it looks.
           </p>
         </div>
         <div className="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
