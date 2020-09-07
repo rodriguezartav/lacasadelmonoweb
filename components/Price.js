@@ -7,12 +7,13 @@ export default function Price() {
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none">
-              Simple pricing
+              Full property rental for groups of any size
             </h2>
-            <p className="mt-4 text-xl leading-7 text-gray-600">
-              We know how hard it is to organize a group trip - we make it easy
-              by providing premium reservation services, our web apps and
-              pricing for everyone, everywhere. easy
+            <p className="mt-4 text-xl  max-w-screen-md text-center mx-auto leading-7 text-gray-600">
+              We know how hard it is to organize a trip
+              <br />
+              We make it easy by providing personalized reservation services
+              <br /> to every guest in your trip.
             </p>
           </div>
         </div>
@@ -24,11 +25,13 @@ export default function Price() {
             <div className="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
               <div className="bg-white px-6 py-8 lg:p-12">
                 <h3 className="text-2xl leading-8 font-extrabold text-gray-900 sm:text-3xl sm:leading-9">
-                  Price per night per person
+                  Simple pricing for everyone
                 </h3>
-                <p className="mt-6 text-base leading-6 text-gray-500">
-                  You get a 5% discount for every 5 people, 1 free kid for every
-                  couple and one free adult for every 10 persons.
+                <p className="mt-6 text-base leading-6 text-gray-800">
+                  We calculate your trip based on a fixed price per human per
+                  day.
+                  <br />
+                  No check-in time, no check-out time.
                 </p>
                 <div className="mt-8">
                   <div className="flex items-center">
@@ -360,9 +363,11 @@ export default function Price() {
                   </ul>
                 </div>
               </div>
-              <div className="py-8 px-6 text-center bg-darkseagreen-300 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
-                <p className="text-lg leading-6 font-medium text-gray-900">
-                  Includes VIP Concierge Services
+              <div className="py-8 px-6 text-center bg-darkseagreen-300 lg:flex-grow-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
+                <p className="text-lg leading-6 w-72 font-medium text-gray-900">
+                  Includes VIP Concierge Services for help with groceries,
+                  tours, insurance, international plane fares, medicines,
+                  massage, acupunture, etc
                 </p>
                 <div className="mt-4 flex items-center justify-center text-5xl leading-none font-extrabold text-gray-900">
                   <span>$69</span>
