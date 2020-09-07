@@ -85,17 +85,16 @@ export default function Content() {
             </div>
             <div className="prose text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
               <p>
-                You'll be walking with here under the canopy and suddenly she'll
-                hear a subtle calling and let us know the monkeys are here. More
-                than a trained ear, she has a connection with this beautiful
-                creatures that can only be found on this small part of the
-                world.
+                You'll be walking with her under the canopy and suddenly she'll
+                hear a subtle calling that no one else heard just before she
+                let's us know the monkeys are around. More than a trained ear,
+                she has a connection with this beautiful creatures that can only
+                be found on this small part of the world.
               </p>
               <p>
-                Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique
-                sit nisi lorem pulvinar. Urna, laoreet fusce nibh leo. Dictum et
-                et et sit. Faucibus sed non gravida lectus dignissim imperdiet
-                a.
+                Spending time with people like Daniela is one of the gateways to
+                experience the magic interconecction between every living thing
+                and the delicate harmony that keeps us alive.
               </p>
               <p>
                 Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem
