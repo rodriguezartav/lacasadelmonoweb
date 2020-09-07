@@ -6,17 +6,14 @@ export default function Features() {
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-darkseagreen-700 sm:text-4xl sm:leading-10">
-            Osa Peninsula of Costa Rica
+            The Osa Peninsula of Costa Rica
           </h3>
-          <p className="mt-4 max-w-2xl text-2xl leading-8 text-gray-500 lg:mx-auto">
-            Visiting the most biodiverse place on earth is so much more than
-            vacation. It's a once in lifetime experience.
-          </p>
-          <p className="mt-4 max-w-2xl text-lg leading-8 text-gray-500 lg:mx-auto">
-            To create the conditions for as many people to enjoy it, is our art.
-          </p>
-          <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
-            Mono - CEO & Experience Specialist
+
+          <p className="mt-4 max-w-2xl text-xl leading-8 text-gray-500 lg:mx-auto">
+            Home of Corcovado National Park and Golfo Dulce. Nowhere on earth
+            can you find more density of wildlife than here, you can experience
+            it every day. The pristine ocean, the jungle, any time of the year
+            it's exceptionaly beautiful - and yet it's safe even for babys.
           </p>
         </div>
         <div className="mt-10">
@@ -149,6 +146,14 @@ export default function Features() {
             </li>
           </ul>
         </div>
+        <p className="mt-4 max-w-2xl text-2xl leading-8 text-gray-500 lg:mx-auto">
+          Visiting the most biodiverse place on earth is so much more than
+          vacation. It's a once in lifetime experience.
+        </p>
+
+        <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
+          Mono - CEO & Experience Specialist
+        </p>
       </div>
     </div>
   );

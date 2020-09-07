@@ -19,8 +19,8 @@ export default function index() {
                 <div className="flex items-center justify-between w-full md:w-auto">
                   <a href="#" aria-label="Home">
                     <img
-                      className="h-8 w-auto sm:h-10"
-                      src="https://tailwindui.com/img/logos/workflow-mark-on-white.svg"
+                      className="h-28 w-auto sm:h-28 pt-5"
+                      src="/logo.png"
                       alt="Logo"
                     />
                   </a>
@@ -49,38 +49,7 @@ export default function index() {
                   </div>
                 </div>
               </div>
-              <div className="hidden md:block md:ml-10 md:pr-4">
-                <a
-                  href="#"
-                  className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Product
-                </a>
-                <a
-                  href="#"
-                  className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Features
-                </a>
-                <a
-                  href="#"
-                  className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Marketplace
-                </a>
-                <a
-                  href="#"
-                  className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Company
-                </a>
-                <a
-                  href="#"
-                  className="ml-8 font-medium text-burlywood-600 hover:text-burlywood-900 transition duration-150 ease-in-out"
-                >
-                  Log in
-                </a>
-              </div>
+              <div className="hidden md:block md:ml-10 md:pr-4"></div>
             </nav>
           </div>
           {/*
@@ -93,7 +62,7 @@ export default function index() {
     From: "opacity-100 scale-100"
     To: "opacity-0 scale-95"
 */}
-          <div className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+          <div className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right hidden">
             <div className="rounded-lg shadow-md">
               <div
                 className="rounded-lg bg-white shadow-xs overflow-hidden"
@@ -103,11 +72,7 @@ export default function index() {
               >
                 <div className="px-5 pt-4 flex items-center justify-between">
                   <div>
-                    <img
-                      className="h-8 w-auto"
-                      src="https://tailwindui.com/img/logos/workflow-mark-on-white.svg"
-                      alt
-                    />
+                    <img className="h-24 w-auto" src="/logo.png" alt />
                   </div>
                   <div className="-mr-2">
                     <button
@@ -175,9 +140,9 @@ export default function index() {
           </div>
           <main className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
-              <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-darkseagreen-700 sm:text-5xl sm:leading-none md:text-6xl">
+              <h2 className="text-3xl tracking-tight leading-10 font-bold text-darkseagreen-700 sm:text-4xl sm:leading-none md:text-5xl">
                 Nature's retreat
-                <br className="xl:hidden" />
+                <br className=":hidden" />
                 <span className="text-burlywood-700">
                   {" "}
                   for family & friends
@@ -226,7 +191,7 @@ export default function index() {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+          src="https://fundacionsaimiri.org/wp-content/uploads/2020/06/FundacionSaimiri-9-683x1024-1.jpg"
           alt
         />
       </div>
