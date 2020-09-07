@@ -9,11 +9,11 @@ export default function Features() {
             The Osa Peninsula of Costa Rica
           </h3>
 
-          <p className="mt-4 max-w-2xl text-xl leading-8 text-gray-500 lg:mx-auto">
+          <p className="mt-4 mb-7 max-w-2xl text-xl leading-8 text-gray-500 lg:mx-auto">
             Home of Corcovado National Park and Golfo Dulce. Nowhere on earth
-            can you find more density of wildlife than here, you can experience
-            it every day. The pristine ocean, the jungle, any time of the year
-            it's simply stunning - and yet it's so accesible.
+            can you experience such density of wildlife any time of the year.
+            The pristine ocean, the jungle, the sound it's simply stunning - and
+            yet it's so accesible.
           </p>
         </div>
         <div className="mt-10">
