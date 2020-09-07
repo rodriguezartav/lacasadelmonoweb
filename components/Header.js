@@ -71,7 +71,7 @@ export default function index() {
               <span className="inline-flex rounded-md shadow-sm">
                 <a
                   href="#"
-                  className="whitespace-no-wrap inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-500 focus:outline-none focus:border-yellow-700 focus:shadow-outline-yellow active:bg-yellow-700 transition ease-in-out duration-150"
+                  className="whitespace-no-wrap inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-burlywood-600 hover:bg-burlywood-500 focus:outline-none focus:border-burlywood-700 focus:shadow-outline-burlywood active:bg-burlywood-700 transition ease-in-out duration-150"
                 >
                   Sign up
                 </a>
@@ -129,7 +129,7 @@ Leaving: "duration-100 ease-in"
                       className="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                     >
                       <svg
-                        className="flex-shrink-0 h-6 w-6 text-yellow-600"
+                        className="flex-shrink-0 h-6 w-6 text-burlywood-600"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -150,7 +150,7 @@ Leaving: "duration-100 ease-in"
                       className="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                     >
                       <svg
-                        className="flex-shrink-0 h-6 w-6 text-yellow-600"
+                        className="flex-shrink-0 h-6 w-6 text-burlywood-600"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -171,7 +171,7 @@ Leaving: "duration-100 ease-in"
                       className="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                     >
                       <svg
-                        className="flex-shrink-0 h-6 w-6 text-yellow-600"
+                        className="flex-shrink-0 h-6 w-6 text-burlywood-600"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -192,7 +192,7 @@ Leaving: "duration-100 ease-in"
                       className="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                     >
                       <svg
-                        className="flex-shrink-0 h-6 w-6 text-yellow-600"
+                        className="flex-shrink-0 h-6 w-6 text-burlywood-600"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -213,7 +213,7 @@ Leaving: "duration-100 ease-in"
                       className="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                     >
                       <svg
-                        className="flex-shrink-0 h-6 w-6 text-yellow-600"
+                        className="flex-shrink-0 h-6 w-6 text-burlywood-600"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -287,7 +287,7 @@ Leaving: "duration-100 ease-in"
                   <span className="w-full flex rounded-md shadow-sm">
                     <a
                       href="#"
-                      className="w-full flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-500 focus:outline-none focus:border-yellow-700 focus:shadow-outline-yellow active:bg-yellow-700 transition ease-in-out duration-150"
+                      className="w-full flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-burlywood-600 hover:bg-burlywood-500 focus:outline-none focus:border-burlywood-700 focus:shadow-outline-burlywood active:bg-burlywood-700 transition ease-in-out duration-150"
                     >
                       Sign up
                     </a>
@@ -296,7 +296,7 @@ Leaving: "duration-100 ease-in"
                     Existing customer?
                     <a
                       href="#"
-                      className="text-yellow-600 hover:text-yellow-500 transition ease-in-out duration-150"
+                      className="text-burlywood-600 hover:text-burlywood-500 transition ease-in-out duration-150"
                     >
                       Sign in
                     </a>
@@ -313,7 +313,7 @@ Leaving: "duration-100 ease-in"
             <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl lg:text-5xl xl:text-6xl">
               Data to enrich your
               <br className="xl:hidden" />
-              <span className="text-yellow-600">online business</span>
+              <span className="text-burlywood-600">online business</span>
             </h2>
             <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
@@ -324,7 +324,7 @@ Leaving: "duration-100 ease-in"
               <div className="rounded-md shadow">
                 <a
                   href="#"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-500 focus:outline-none focus:border-yellow-700 focus:shadow-outline-yellow transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-burlywood-600 hover:bg-burlywood-500 focus:outline-none focus:border-burlywood-700 focus:shadow-outline-burlywood transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                 >
                   Get started
                 </a>
@@ -332,7 +332,7 @@ Leaving: "duration-100 ease-in"
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                 <a
                   href="#"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-yellow-600 bg-white hover:text-yellow-500 focus:outline-none focus:border-yellow-300 focus:shadow-outline-yellow transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-burlywood-600 bg-white hover:text-burlywood-500 focus:outline-none focus:border-burlywood-300 focus:shadow-outline-burlywood transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                 >
                   Live demo
                 </a>

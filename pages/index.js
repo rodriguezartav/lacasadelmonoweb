@@ -1,5 +1,12 @@
 import Head from "next/head";
 import Header from "../components/Header";
+import Content from "../components/Content";
+import Footer from "../components/Footer";
+import Features from "../components/Features";
+import Details from "../components/Details";
+import Faq from "../components/Faq";
+import Price from "../components/Price";
+
 export default function Home() {
   return (
     <div>
@@ -10,6 +17,12 @@ export default function Home() {
       </Head>
 
       <Header />
+      <Features />
+      <Details />
+      <Price />
+      <Content />
+      <Faq />
+      <Footer />
     </div>
   );
 }
