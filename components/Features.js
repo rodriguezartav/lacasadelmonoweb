@@ -13,7 +13,7 @@ export default function Features() {
             Home of Corcovado National Park and Golfo Dulce. Nowhere on earth
             can you find more density of wildlife than here, you can experience
             it every day. The pristine ocean, the jungle, any time of the year
-            it's exceptionaly beautiful - and yet it's safe even for babys.
+            it's simply stunning - and yet it's so accesible.
           </p>
         </div>
         <div className="mt-10">
