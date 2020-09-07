@@ -37,7 +37,7 @@ export default function Details() {
           />
         </svg>
         <div className="relative">
-          <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+          <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-burlywood-900 sm:text-4xl sm:leading-10">
             Why stay with us?
           </h3>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-gray-500">
@@ -50,7 +50,7 @@ export default function Details() {
         </div>
         <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
-            <h4 className="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
+            <h4 className="text-2xl leading-8 font-extrabold text-burlywood-900 tracking-tight sm:text-3xl sm:leading-9">
               Our goal
             </h4>
             <p className="mt-3 text-lg leading-7 text-gray-500">
@@ -79,7 +79,7 @@ export default function Details() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h5 className="text-lg leading-6 font-medium text-gray-900">
+                    <h5 className="text-lg leading-6 font-medium text-burlywood-900">
                       It's about creating the conditions
                     </h5>
                     <p className="mt-2 text-base leading-6 text-gray-500">
@@ -110,7 +110,7 @@ export default function Details() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h5 className="text-lg leading-6 font-medium text-gray-900">
+                    <h5 className="text-lg leading-6 font-medium text-burlywood-900">
                       Our way is having fun
                     </h5>
                     <p className="mt-2 text-base leading-6 text-gray-500">
@@ -141,7 +141,7 @@ export default function Details() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h5 className="text-lg leading-6 font-medium text-gray-900">
+                    <h5 className="text-lg leading-6 font-medium text-burlywood-900">
                       This jungle is university
                     </h5>
                     <p className="mt-2 text-base leading-6 text-gray-500">
@@ -232,7 +232,7 @@ export default function Details() {
         <div className="relative mt-12 sm:mt-16 lg:mt-24">
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:col-start-2">
-              <h4 className="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
+              <h4 className="text-2xl leading-8 font-extrabold text-burlywood-900 tracking-tight sm:text-3xl sm:leading-9">
                 What kind of retreat is it?
               </h4>
               <p className="mt-3 text-lg leading-7 text-gray-500">
@@ -261,7 +261,7 @@ export default function Details() {
                       </div>
                     </div>
                     <div className="ml-4">
-                      <h5 className="text-lg leading-6 font-medium text-gray-900">
+                      <h5 className="text-lg leading-6 font-medium text-burlywood-900">
                         Our method is to not have a method
                       </h5>
                       <p className="mt-2 text-base leading-6 text-gray-500">
@@ -293,7 +293,7 @@ export default function Details() {
                       </div>
                     </div>
                     <div className="ml-4">
-                      <h5 className="text-lg leading-6 font-medium text-gray-900">
+                      <h5 className="text-lg leading-6 font-medium text-burlywood-900">
                         Arts of Body & Mind
                       </h5>
                       <p className="mt-2 text-base leading-6 text-gray-500">
