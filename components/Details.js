@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Details() {
   return (
-    <div className="py-16 bg-darkseagreen-300 overflow-hidden lg:py-24">
+    <div className="py-16 bg-darkseagreen-200 overflow-hidden lg:py-24">
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
         <svg
           className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
@@ -37,15 +37,17 @@ export default function Details() {
           />
         </svg>
         <div className="relative">
-          <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-burlywood-900 sm:text-4xl sm:leading-10">
+          <h3 className="text-center text-4xl leading-9 font-extrabold tracking-tight text-burlywood-900 sm:text-4xl sm:leading-10">
             Why stay with us?
           </h3>
-          <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-gray-500">
-            We were very different when we arrived the Osa Peninsula in our
-            20's. An specialist in Wildlife Biology and a senior Software
-            Engineer. This place opened up our hearts and lead us to a new life
-            - now a family we turned our dream property into a place where
-            hopefully other's can experience what we did.
+          <p className="mt-4 max-w-2xl mx-auto text-center text-xl leading-8 text-gray-700">
+            We both grew up on the capital city and arrived here in our 20's as
+            a Wildlife Biologist and a Software Engineer.
+          </p>
+          <p className="mt-4 max-w-4xl mx-auto text-center text-xl leading-8 text-gray-700">
+            This place opened up our hearts and lead us to a new life - as a
+            family we turned our dream property into a project for other's to
+            experience the same.
           </p>
         </div>
         <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
@@ -142,7 +144,7 @@ export default function Details() {
                   </div>
                   <div className="ml-4">
                     <h5 className="text-lg leading-6 font-medium text-burlywood-900">
-                      This jungle is university
+                      This jungle is the university
                     </h5>
                     <p className="mt-2 text-base leading-6 text-gray-500">
                       During my first visit to Corcovado National Park I had a
@@ -190,9 +192,9 @@ export default function Details() {
               />
             </svg>
             <img
-              className="relative mx-auto"
+              className="relative mx-auto border-4 border-white"
               width={490}
-              src="https://tailwindui.com/img/features/feature-example-1.png"
+              src="/location.png"
               alt
             />
           </div>
@@ -236,7 +238,7 @@ export default function Details() {
                 What kind of retreat is it?
               </h4>
               <p className="mt-3 text-lg leading-7 text-gray-500">
-                It's mother nature retreat. There are no gurus, teachers, no
+                It's mother nature's retreat. There are no gurus, teachers, no
                 classes, no lectures and no schedules. Definetly no rules and no
                 dogmas!
               </p>
@@ -341,9 +343,9 @@ export default function Details() {
                 />
               </svg>
               <img
-                className="relative mx-auto"
+                className="relative mx-auto border-4 border-white"
                 width={490}
-                src="https://tailwindui.com/img/features/feature-example-2.png"
+                src="/surf.png"
                 alt
               />
             </div>

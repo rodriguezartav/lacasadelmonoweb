@@ -71,7 +71,7 @@ export default function Price() {
                         </svg>
                       </div>
                       <p className="ml-3 text-sm leading-5 text-gray-700">
-                        All activities, equipment and guides
+                        Assorted oils, creams and natural products
                       </p>
                     </li>
                     <li className="mt-5 flex items-start lg:col-span-1 lg:mt-0">
@@ -89,8 +89,8 @@ export default function Price() {
                         </svg>
                       </div>
                       <p className="ml-3 text-sm leading-5 text-gray-700">
-                        Profesional Kitchen stocked with cooking ingredients.
-                        Fresh fruit, coffee and te, cleaning servicer at 3PM.
+                        Jungle Lounge with hammocks, bonefires, rock pools,
+                        occasional live music and table games.
                       </p>
                     </li>
                     <li className="mt-5 flex items-start lg:col-span-1 lg:mt-0">
@@ -108,7 +108,253 @@ export default function Price() {
                         </svg>
                       </div>
                       <p className="ml-3 text-sm leading-5 text-gray-700">
-                        Official member t-shirt
+                        Profesional Kitchen stocked with utencils & ingredients
+                        - chef available upon request
+                      </p>
+                    </li>
+                    <li className="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                      <div className="flex-shrink-0">
+                        <svg
+                          className="h-5 w-5 text-darkseagreen-400"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="ml-3 text-sm leading-5 text-gray-700">
+                        Fresh fruit juice, coffee, infusions and te station
+                      </p>
+                    </li>
+                    <li className="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                      <div className="flex-shrink-0">
+                        <svg
+                          className="h-5 w-5 text-darkseagreen-400"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="ml-3 text-sm leading-5 text-gray-700">
+                        Roundtrip PJM airport transportation
+                      </p>
+                    </li>
+                    <li className="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                      <div className="flex-shrink-0">
+                        <svg
+                          className="h-5 w-5 text-darkseagreen-400"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="ml-3 text-sm leading-5 text-gray-700">
+                        La Casa del Mono T-Shirt
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div className="mt-8">
+                  <div className="flex items-center">
+                    <h4 className="flex-shrink-0 pr-4 bg-white text-sm leading-5 tracking-wider font-semibold uppercase text-burlywood-600">
+                      Included Activities &{" "}
+                      <strong className="underline">Equipment</strong>
+                    </h4>
+                    <div className="flex-1 border-t-2 border-gray-200" />
+                  </div>
+                  <ul className="mt-8 lg:grid lg:grid-cols-2 lg:col-gap-8 lg:row-gap-5">
+                    <li className="flex items-start lg:col-span-1">
+                      <div className="flex-shrink-0">
+                        <svg
+                          className="h-5 w-5 text-darkseagreen-400"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="ml-3 text-sm leading-5 text-gray-700">
+                        Surfing, Paddleboarding & Kayaking
+                      </p>
+                    </li>
+                    <li className="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                      <div className="flex-shrink-0">
+                        <svg
+                          className="h-5 w-5 text-darkseagreen-400"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="ml-3 text-sm leading-5 text-gray-700">
+                        Rivermounth & Shore Fishing
+                      </p>
+                    </li>
+                    <li className="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                      <div className="flex-shrink-0">
+                        <svg
+                          className="h-5 w-5 text-darkseagreen-400"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="ml-3 text-sm leading-5 text-gray-700">
+                        Wildlife Spotting & Photography
+                      </p>
+                    </li>
+                    <li className="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                      <div className="flex-shrink-0">
+                        <svg
+                          className="h-5 w-5 text-darkseagreen-400"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="ml-3 text-sm leading-5 text-gray-700">
+                        Mountain Biking, Hiking & Trail Running
+                      </p>
+                    </li>
+                    <li className="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                      <div className="flex-shrink-0">
+                        <svg
+                          className="h-5 w-5 text-darkseagreen-400"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="ml-3 text-sm leading-5 text-gray-700">
+                        Meditation Pods & Yoga Platforms
+                      </p>
+                    </li>
+                    <li className="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                      <div className="flex-shrink-0">
+                        <svg
+                          className="h-5 w-5 text-darkseagreen-400"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="ml-3 text-sm leading-5 text-gray-700">
+                        Tide Pools & Rainforest Pools
+                      </p>
+                    </li>
+                    <li className="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                      <div className="flex-shrink-0">
+                        <svg
+                          className="h-5 w-5 text-darkseagreen-400"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="ml-3 text-sm leading-5 text-gray-700">
+                        Wellness Library & Gaia Videos
+                      </p>
+                    </li>
+                    <li className="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                      <div className="flex-shrink-0">
+                        <svg
+                          className="h-5 w-5 text-darkseagreen-400"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="ml-3 text-sm leading-5 text-gray-700">
+                        Biology Curses & Presentations
+                      </p>
+                    </li>
+                    <li className="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                      <div className="flex-shrink-0">
+                        <svg
+                          className="h-5 w-5 text-darkseagreen-400"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="ml-3 text-sm leading-5 text-gray-700">
+                        Cooking Lessons Tortillas & Local Cousine
+                      </p>
+                    </li>
+                    <li className="mt-5 flex items-start lg:col-span-1 lg:mt-0">
+                      <div className="flex-shrink-0">
+                        <svg
+                          className="h-5 w-5 text-darkseagreen-400"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="ml-3 text-sm leading-5 text-gray-700">
+                        Tree Climbing, Swinging and Canopy Watching
                       </p>
                     </li>
                   </ul>
@@ -116,7 +362,7 @@ export default function Price() {
               </div>
               <div className="py-8 px-6 text-center bg-darkseagreen-300 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
                 <p className="text-lg leading-6 font-medium text-gray-900">
-                  Contact us for special prices
+                  Includes VIP Concierge Services
                 </p>
                 <div className="mt-4 flex items-center justify-center text-5xl leading-none font-extrabold text-gray-900">
                   <span>$69</span>
@@ -126,7 +372,7 @@ export default function Price() {
                 </div>
                 <p className="mt-4 text-sm leading-5">
                   <a href="#" className="font-medium text-gray-500 underline">
-                    Learn about our membership policy
+                    50% discount with our sponsorship package
                   </a>
                 </p>
                 <div className="mt-6">
@@ -135,15 +381,9 @@ export default function Price() {
                       href="#"
                       className="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-burlywood-900 hover:bg-burlywood-800 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                     >
-                      Get Access
+                      Check availability and Book
                     </a>
                   </div>
-                </div>
-                <div className="mt-4 text-sm leading-5">
-                  <a href="#" className="font-medium text-burlywood-900">
-                    Get a free sample
-                    <span className="font-normal text-gray-500">(20MB)</span>
-                  </a>
                 </div>
               </div>
             </div>
