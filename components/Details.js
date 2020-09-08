@@ -57,7 +57,7 @@ export default function Details() {
             </h4>
             <p className="mt-3 text-lg leading-7 text-gray-500">
               We created a beautfull and comfortable property for friends and
-              family. But out true goal is to help people feel a true connection
+              family. But our true goal is to help people feel a true connection
               with mother nature.
             </p>
             <ul className="mt-10">
@@ -118,7 +118,7 @@ export default function Details() {
                     <p className="mt-2 text-base leading-6 text-gray-500">
                       We are surfers, hickers and world traverlers. We believe
                       the best way to experience this paradise is to be engaged
-                      with it and why not have fun doing it!
+                      with it and having fun doing it!
                     </p>
                   </div>
                 </div>
@@ -150,7 +150,7 @@ export default function Details() {
                       During my first visit to Corcovado National Park I had a
                       dream, in it mother nature explained to me that this place
                       is some sort of university where we humans could remember
-                      the most importante lessons just by spending some quality
+                      the most important lessons just by spending some quality
                       with her.
                     </p>
                   </div>

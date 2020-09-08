@@ -31,6 +31,8 @@ export default function Price() {
                   We calculate your trip based on a fixed price per human per
                   day.
                   <br />
+                  No extra charges, no upselling, no bills!
+                  <br />
                   No check-in time, no check-out time.
                 </p>
                 <div className="mt-8">
