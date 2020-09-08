@@ -1,8 +1,13 @@
 import React from "react";
 
-export default function Price() {
+export default function Price(props) {
   return (
-    <div className="bg-darkseagreen-100">
+    <div
+      onClick={() => {
+        props.onOpen();
+      }}
+      className="bg-darkseagreen-100"
+    >
       <div className="pt-12 sm:pt-16 lg:pt-20">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">

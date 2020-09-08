@@ -1,8 +1,13 @@
 import React from "react";
 
-export default function Footer() {
+export default function Footer(props) {
   return (
-    <div className="bg-cadetblue-800">
+    <div
+      onClick={() => {
+        props.onOpen();
+      }}
+      className="bg-cadetblue-800"
+    >
       <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="grid grid-cols-2 gap-8 xl:col-span-2">

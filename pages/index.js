@@ -7,8 +7,15 @@ import Details from "../components/Details";
 import Faq from "../components/Faq";
 import Blog from "../components/Blog";
 import Price from "../components/Price";
+import SideBar from "../components/SideBar";
 
 export default function Home() {
+  const [open, setOpen] = React.useState(false);
+
+  const onOpen = () => {
+    setOpen(!open);
+  };
+
   return (
     <div>
       <Head>
@@ -17,15 +24,16 @@ export default function Home() {
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
 
-      <Header />
-      <Features />
-      <Details />
-      <Blog />
-      <Price />
+      <SideBar open={open} onOpen={onOpen} />
+      <Header onOpen={onOpen} />
+      <Features onOpen={onOpen} />
+      <Details onOpen={onOpen} />
+      <Blog onOpen={onOpen} />
+      <Price onOpen={onOpen} />
 
-      <Content />
-      <Faq />
-      <Footer />
+      <Content onOpen={onOpen} />
+      <Faq onOpen={onOpen} />
+      <Footer onOpen={onOpen} />
     </div>
   );
 }

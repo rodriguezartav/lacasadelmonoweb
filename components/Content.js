@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Content() {
+export default function Content(props) {
   return (
     <div className="bg-white overflow-hidden">
       <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
@@ -96,24 +96,7 @@ export default function Content() {
                 experience the magic interconecction between every living thing
                 and the delicate harmony that keeps us alive.
               </p>
-              <p>
-                Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem
-                arcu, metus, egestas netus cursus. In.
-              </p>
-              <ul>
-                <li>Quis elit egestas venenatis mattis dignissim.</li>
-                <li>
-                  Cras cras lobortis vitae vivamus ultricies facilisis tempus.
-                </li>
-                <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-              </ul>
-              <p>
-                Rhoncus nisl, libero egestas diam fermentum dui. At quis
-                tincidunt vel ultricies. Vulputate aliquet velit faucibus
-                semper. Pellentesque in venenatis vestibulum consectetur nibh
-                id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim
-                fermentum lacus in. Viverra.
-              </p>
+
               <h2>Volunteering & Guest Scientists</h2>
               <p>
                 Becuause of our excelente location to study wildlife we host and

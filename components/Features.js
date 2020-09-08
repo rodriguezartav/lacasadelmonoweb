@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Features() {
+export default function Features(props) {
   return (
     <div className="py-12 bg-white">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">

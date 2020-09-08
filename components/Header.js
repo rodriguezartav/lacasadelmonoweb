@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function index() {
+export default function Header(props) {
   return (
     <div className="relative bg-white overflow-hidden">
       <div className="max-w-screen-xl mx-auto">
@@ -26,6 +26,10 @@ export default function index() {
                   </a>
                   <div className="-mr-2 flex items-center md:hidden">
                     <button
+                      onClick={() => {
+                        debugger;
+                        props.onOpen();
+                      }}
                       type="button"
                       className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
                       id="main-menu"
@@ -77,6 +81,7 @@ export default function index() {
                   <div className="-mr-2">
                     <button
                       type="button"
+                      onClick={props.onOpen}
                       className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
                       aria-label="Close menu"
                     >
@@ -169,7 +174,9 @@ export default function index() {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
+                    onClick={() => {
+                      props.onOpen();
+                    }}
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-burlywood-600 hover:bg-burlywood-500 focus:outline-none focus:border-burlywood-700 focus:shadow-outline-burlywood transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                   >
                     Click to call for free
@@ -177,7 +184,9 @@ export default function index() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="#"
+                    onClick={() => {
+                      props.onOpen();
+                    }}
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-burlywood-700 bg-burlywood-100 hover:text-burlywood-600 hover:bg-burlywood-50 focus:outline-none focus:shadow-outline-burlywood focus:border-burlywood-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                   >
                     Whatsapp Chat
