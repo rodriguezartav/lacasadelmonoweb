@@ -154,8 +154,7 @@ export default function Header(props) {
                 </span>
               </h2>
               <p className="mt-3 text-lg text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0">
-                Feel like you're renting part of a national park all for
-                yourself.
+                It's like renting part of a national park all for yourself.
                 <ul className="my-4 text-darkseagreen-600 text-sm uppercase">
                   <li className="my-2 ml-2">
                     Private beachfront lined with palmt rees and tide pools
