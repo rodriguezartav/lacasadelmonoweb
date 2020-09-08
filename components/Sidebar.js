@@ -1,12 +1,48 @@
 import React from "react";
 import { Transition } from "@tailwindui/react";
+import { useMutation } from "../data/Api";
 
 export default function Sidebar(props) {
   const [email, setEmail] = React.useState("");
+  const [mutate, state] = useMutation("/lead");
 
   const onSend = () => {
-    props.onSend(email);
+    mutate({ email: email });
   };
+
+  const renderForm = () => {
+    return (
+      <div className="flex-1 flex flex-col justify-between">
+        <div className="px-4 divide-y divide-gray-200 sm:px-6">
+          <div className="space-y-6 pt-6 pb-5">
+            <p className="text-sm leading-5 text-burlywood-900">
+              Join the mailing list and we'll let you know when we'll open.
+            </p>
+            <div className="space-y-1">
+              <label
+                htmlFor="project_name"
+                className="block text-sm font-medium leading-5 text-gray-900"
+              >
+                Email
+              </label>
+              <div className="relative rounded-md shadow-sm">
+                <input
+                  value={email}
+                  onChange={(e) => {
+                    setEmail(e.currentTarget.value);
+                  }}
+                  id="project_name"
+                  className="form-input block w-full sm:text-sm sm:leading-5 transition ease-in-out duration-150"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  const renderSuccess = () => {};
 
   return (
     <div
@@ -74,34 +110,8 @@ export default function Sidebar(props) {
                         </p>
                       </div>
                     </header>
-                    <div className="flex-1 flex flex-col justify-between">
-                      <div className="px-4 divide-y divide-gray-200 sm:px-6">
-                        <div className="space-y-6 pt-6 pb-5">
-                          <p className="text-sm leading-5 text-burlywood-900">
-                            Join the mailing list and we'll let you know when
-                            we'll open.
-                          </p>
-                          <div className="space-y-1">
-                            <label
-                              htmlFor="project_name"
-                              className="block text-sm font-medium leading-5 text-gray-900"
-                            >
-                              Email
-                            </label>
-                            <div className="relative rounded-md shadow-sm">
-                              <input
-                                value={email}
-                                onChange={(e) => {
-                                  setEmail(e.currentTarget.value);
-                                }}
-                                id="project_name"
-                                className="form-input block w-full sm:text-sm sm:leading-5 transition ease-in-out duration-150"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    {state.loaded && renderSuccess()}
+                    {!state.loaded && renderForm()}
                   </div>
                   <div className="flex-shrink-0 px-4 py-4 space-x-4 flex justify-end">
                     <span className="inline-flex rounded-md shadow-sm">

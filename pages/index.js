@@ -24,7 +24,7 @@ export default function Home() {
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
 
-      <SideBar open={open} onOpen={onOpen} />
+      <Sidebar open={open} onOpen={onOpen} />
       <Header onOpen={onOpen} />
       <Features onOpen={onOpen} />
       <Details onOpen={onOpen} />
