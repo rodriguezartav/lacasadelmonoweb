@@ -1,11 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 
 export async function query(route, body) {
-  // Call an external API endpoint to get posts
-
   try {
-    // Fetch data and remember product id
-
     const response = await fetch(
       `${process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000"}/${route}`,
       {

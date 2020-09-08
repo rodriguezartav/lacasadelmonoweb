@@ -4,7 +4,7 @@ import { useMutation } from "../data/Api";
 
 export default function Sidebar(props) {
   const [email, setEmail] = React.useState("");
-  const [mutate, state] = useMutation("/lead");
+  const [mutate, state] = useMutation("leads");
 
   const onSend = () => {
     mutate({ email: email });
@@ -42,7 +42,16 @@ export default function Sidebar(props) {
     );
   };
 
-  const renderSuccess = () => {};
+  const renderSuccess = () => {
+    return (
+      <div className="my-8 mx-8">
+        <p className="text-lg leading-8 text-burlywood-800">
+          Thank you! <br />
+          We'll be in touch as soon as we have an opening date.
+        </p>
+      </div>
+    );
+  };
 
   return (
     <div
@@ -113,26 +122,28 @@ export default function Sidebar(props) {
                     {state.loaded && renderSuccess()}
                     {!state.loaded && renderForm()}
                   </div>
-                  <div className="flex-shrink-0 px-4 py-4 space-x-4 flex justify-end">
-                    <span className="inline-flex rounded-md shadow-sm">
-                      <button
-                        onClick={props.onOpen}
-                        type="button"
-                        className="py-2 px-4 border border-gray-300 rounded-md text-sm leading-5 font-medium text-gray-700 hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-50 active:text-gray-800 transition duration-150 ease-in-out"
-                      >
-                        Cancel
-                      </button>
-                    </span>
-                    <span className="inline-flex rounded-md shadow-sm">
-                      <button
-                        onClick={onSend}
-                        type="submit"
-                        className="inline-flex justify-center py-2 px-4 border border-transparent text-sm leading-5 font-medium rounded-md text-white bg-burlywood-600 hover:bg-burlywood-500 focus:outline-none focus:border-burlywood-700 focus:shadow-outline-burlywood active:bg-burlywood-700 transition duration-150 ease-in-out"
-                      >
-                        Send Email
-                      </button>
-                    </span>
-                  </div>
+                  {!state.loaded && (
+                    <div className="flex-shrink-0 px-4 py-4 space-x-4 flex justify-end">
+                      <span className="inline-flex rounded-md shadow-sm">
+                        <button
+                          onClick={props.onOpen}
+                          type="button"
+                          className="py-2 px-4 border border-gray-300 rounded-md text-sm leading-5 font-medium text-gray-700 hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-50 active:text-gray-800 transition duration-150 ease-in-out"
+                        >
+                          Cancel
+                        </button>
+                      </span>
+                      <span className="inline-flex rounded-md shadow-sm">
+                        <button
+                          onClick={onSend}
+                          type="submit"
+                          className="inline-flex justify-center py-2 px-4 border border-transparent text-sm leading-5 font-medium rounded-md text-white bg-burlywood-600 hover:bg-burlywood-500 focus:outline-none focus:border-burlywood-700 focus:shadow-outline-burlywood active:bg-burlywood-700 transition duration-150 ease-in-out"
+                        >
+                          Send Email
+                        </button>
+                      </span>
+                    </div>
+                  )}
                 </div>
               </div>
             )}
