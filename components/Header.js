@@ -155,18 +155,18 @@ export default function Header(props) {
               </h2>
               <p className="mt-3 text-lg text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0">
                 It's like renting part of a national park all for yourself.
-                <ul className="my-4 text-darkseagreen-600 text-sm uppercase">
-                  <li className="my-2 ml-2">
+                <ul className="my-4 text-darkseagreen-600 text-lg uppercase">
+                  <li className="my-2 ">
                     Semi-Private white sand beach lined with palm trees and tide
                     pools
                   </li>
-                  <li className="my-2 ml-2">
+                  <li className="my-2 ">
                     Jungle with huge trees filled with wildlife
                   </li>
-                  <li className="my-2 ml-2">
+                  <li className="my-2 ">
                     Boutique Accomodations for up to 25 guests
                   </li>
-                  <li className="my-2 ml-2">
+                  <li className="my-2 ">
                     20+ onsite free natural and adventure activities
                   </li>
                 </ul>
