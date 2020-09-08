@@ -155,7 +155,7 @@ export default function Header(props) {
               </h2>
               <p className="mt-3 text-lg text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0">
                 It's like renting part of a national park all for yourself.
-                <ul className="my-4 text-darkseagreen-600 text-lg uppercase">
+                <ul className="my-4 text-darkseagreen-600 text-base uppercase">
                   <li className="my-2 ">
                     Semi-Private white sand beach lined with palm trees and tide
                     pools
