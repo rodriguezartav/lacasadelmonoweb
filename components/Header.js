@@ -157,7 +157,7 @@ export default function Header(props) {
                 It's like renting part of a national park all for yourself.
                 <ul className="my-4 text-darkseagreen-600 text-base uppercase">
                   <li className="my-2 ">
-                    Semi-Private white sand beach lined with palm trees and tide
+                    Private white sand beach lined with palm trees and tide
                     pools
                   </li>
                   <li className="my-2 ">
