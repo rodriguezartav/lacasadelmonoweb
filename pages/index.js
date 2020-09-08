@@ -7,7 +7,7 @@ import Details from "../components/Details";
 import Faq from "../components/Faq";
 import Blog from "../components/Blog";
 import Price from "../components/Price";
-import SideBar from "../components/SideBar";
+import Sidebar from "../components/Sidebar";
 
 export default function Home() {
   const [open, setOpen] = React.useState(false);
