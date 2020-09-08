@@ -153,13 +153,13 @@ export default function index() {
                 yourself.
                 <ul className="my-4 text-darkseagreen-600 text-sm uppercase">
                   <li className="my-2 ml-2">
-                    Private beachfront lined with palmtrees and tide pools
+                    Private beachfront lined with palmt rees and tide pools
                   </li>
                   <li className="my-2 ml-2">
                     Jungle with huge trees filled with wildlife
                   </li>
                   <li className="my-2 ml-2">
-                    Boutique Accomodations for 2 or 25+ guests
+                    Boutique Accomodations for up to 25 guests
                   </li>
                   <li className="my-2 ml-2">
                     20+ onsite free natural and adventure activities

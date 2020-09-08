@@ -28,7 +28,7 @@ export default function Price() {
                   Simple pricing for everyone
                 </h3>
                 <p className="mt-6 text-base leading-6 text-gray-800">
-                  We calculate your trip based on a fixed price per human per
+                  We calculate your trip based on a fixed price per person per
                   day.
                   <br />
                   No extra charges, no upselling, no bills!
@@ -305,7 +305,7 @@ export default function Price() {
                         </svg>
                       </div>
                       <p className="ml-3 text-sm leading-5 text-gray-700">
-                        Wellness Library & Gaia Videos
+                        Wellness Library & Videos
                       </p>
                     </li>
                     <li className="mt-5 flex items-start lg:col-span-1 lg:mt-0">
@@ -372,7 +372,7 @@ export default function Price() {
                   massage, acupunture, etc
                 </p>
                 <div className="mt-4 flex items-center justify-center text-5xl leading-none font-extrabold text-gray-900">
-                  <span>$69</span>
+                  <span>$69-$99</span>
                   <span className="ml-3 text-xl leading-7 font-medium text-gray-500">
                     USD
                   </span>

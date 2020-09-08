@@ -77,7 +77,7 @@ export default function Features() {
                     It's the natural feeling of glamping with the comfort of a
                     master bedroom. Profesionally designed spaces, great
                     matrices, pillows and bedsheets, smart temperature controls
-                    on the rooms, natural soaps and oils in crazy bathrooms.
+                    on the rooms, natural soaps and oils in amazing bathrooms.
                   </p>
                 </div>
               </div>
